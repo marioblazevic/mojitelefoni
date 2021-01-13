@@ -1,0 +1,68 @@
+[
+{
+"src": "img/iphone-x.jpg",
+"alt": "Iphone x",
+"naziv" : "Iphone X",
+"ocena": "10",
+"cena": "$1100",
+"id":1
+},
+{
+"src": "img/huawei-p9.jpeg",
+"alt": "Huawei P9",
+"naziv" : "Huawei P9",
+"ocena": "7",
+"cena": "$400",
+"id":3
+},
+{
+"src": "img/huawei-y6.jpg",
+"alt": "Huawei Y6",
+"naziv" : "Huawei Y6",
+"ocena": "7.4",
+"cena": "$450",
+"id":3
+},{
+"src": "img/huawei-p10.png",
+"alt": "Huawei P10",
+"naziv" : "Huawei P10",
+"ocena": "10",
+"cena": "$1100",
+"id":3
+},{
+"src": "img/iphone-7.jpg",
+"alt": "Iphone 7",
+"naziv" : "Iphone 7",
+"ocena": "8.5",
+"cena": "$700",
+"id":1
+},{
+"src": "img/iphone-8.jpg",
+"alt": "Iphone 8",
+"naziv" : "Iphone 8",
+"ocena": "9.1",
+"cena": "$800",
+"id":1
+},{
+"src": "img/samsung-a5.jpg",
+"alt": "Samsung A5",
+"naziv" : "Samsung A5",
+"ocena": "8.5",
+"cena": "$600",
+"id":2
+},{
+  "src": "img/samsung-j5.jpg",
+  "alt": "Samsung J5",
+  "naziv" : "Samsung J5",
+  "ocena": "8",
+  "cena": "$500",
+  "id":2
+},{
+  "src": "img/samsung-s8.png",
+  "alt": "Samsung S8",
+  "naziv" : "Samsung S8",
+  "ocena": "10",
+  "cena": "$900",
+  "id":2
+}
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Brad Traversy">
+    <title>Najbolji telefoni | 2017</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1 id='brand'><a href="index.html" class='logo'>Najbolji mobilni telefoni</a></h1>
+        </div>
+        <nav>
+          <ul id="menu">
+            <li><a href="proizvodi.html">Proizvodi</a>
+            <!-- <li><a href="#">Firme</a>
+              <ul class="active">
+                <li><a href="#">Samsung</a></li>
+                        <li><a href="#">Iphone</a></li>
+                        <li><a href="#">Huawei</a></li>
+                    </ul>
+                </li> -->
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="#">O nama</a>
+                    <ul>
+                        <li><a href="#">O autoru</a></li>
+                        <li><a href="#">Dokumnent</a></li>
+                    </ul>
+                </li>
+                <li><a href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2 class='contact'>Kontaktirajte nas:</h2>
+      <p id='contactP'>Ukoliko želite da poručite neki od telefona ili da postavite neko pitanje to možete učiniti ovde:</p>
+      <div id="errors"></div>
+      <div class="contactForm">
+        <form action="" method="post">
+          <input type="text" placeholder="Ime" id="ime"><br>
+          <input type="text" placeholder="Prezime" id="prezime"><br>
+          <input type="text" placeholder="Email" id="email"><br><br>
+          <input type="radio" name="pol" value="1"> Musko <br>
+          <input type="radio" name="pol" value="2"> Zensko <br>
+          <p>Ovde unesite vasu poruku:</p>
+          <textarea rows="4" cols="39">
+
+          </textarea>
+          <select  id="zanimanja">
+              <option value="0">Vrsta lica...</option>
+              <option value="1">Pravno lice</option>
+              <option value="2">Fizičko lice</option>
+          </select><br>
+          <input type="button"  value="Unesi" class="button_1" id='confirm' onclick="validiraj()">
+        </form>
+        <div class="space"></div>
+      </div>
+    </div>
+
+    <footer>
+      <input type="button" id='showFooter' class='button_1' value='Copyright'>
+      <p>Mario Blažević, Copyright &copy; 2018</p>
+    </footer>
+    <script src="script/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script/jquery.hoverIntent.js" type="text/javascript" charset="utf-8"></script>
+  	<script type="text/javascript" src="script/script.js"></script>
+  </body>
+</html>

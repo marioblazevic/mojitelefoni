@@ -1,0 +1,20 @@
+[
+{
+"src": "img/iphone-x.jpg",
+"alt": "Iphone x",
+"naziv" : "Iphone X",
+"cena": "$1100"
+},
+{
+"src": "img/samsung-s8.png",
+"alt": "Galaxy s8",
+"naziv" : "Galaxy s8",
+"cena": "$900"
+},
+{
+"src": "img/huawei-p10.png",
+"alt": "Huawei p10",
+"naziv" : "Huawei p10",
+"cena": "$750"
+}
+]
